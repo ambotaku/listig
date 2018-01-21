@@ -5,7 +5,7 @@ import VueRouter from 'vue-router';
 import ListServicePlugin from './models';
 
 Vue.use(VueRouter);
-//Vue.use(ListServicePlugin);
+Vue.use(ListServicePlugin);
 
 const routes = [
     { path: '/', component: require('./components/home/home.vue.html') },

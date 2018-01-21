@@ -2,9 +2,9 @@ import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 
 @Component({})
-export default class Newlist extends Vue {
-    listName: string;
-    newItem: string;
+export default class NewlistComponent extends Vue {
+    listName: string = '';
+    newItem: string = '';
     items: string[] = ['eene', 'mene', 'muff'];
 
     delItem(index: number) {
